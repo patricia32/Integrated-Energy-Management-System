@@ -1,0 +1,27 @@
+/* Apply styles to the entire table */
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+/* Style the table header */
+.styled-table th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the table rows */
+.styled-table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the table cells */
+.styled-table td {
+    padding: 10px;
+}
