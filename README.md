@@ -1,6 +1,6 @@
 # **Integrated Energy Management System - Full Stack Project** 
 
-This project involves creating an integrated system by connecting four distributed microservices and three MySQL databases. The main purpose of this project is to read random values from a very large file to simulate reading sensors (_produce_) and monitoring them (_consume_). The reading is continuous, and all values are sent asynchronously via RabbitMQ from the producer (_devices microservice_) to the consumer (_monitoring microservice_).
+This project involves creating an integrated system by connecting four distributed microservices and three MySQL databases. The main purpose of this project is to read random values from a very large file to simulate reading sensors (_produce_) and monitoring them (_consume_). The reading is continuous, and all values are sent asynchronously via RabbitMQ from the producer (_devices microservice_) to the consumer (_monitoring microservice_). Data is visualized using monthly charts.
 
 ## Microservices Overview
 * **Devices (MS + DB)**: Stores sensor information and sends read values to the consumer (_producer microservice_).
